@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Разбор текста</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main-block">
+		<textarea id="txtarea-block" rows="10" placeholder="Введите предложения на русском этаже" spellcheck="false"></textarea>
+		<br><br>
+		<button id="checkBtn">Начать проверку</button>
+		<br><br>
+
+		<table id="blc-result">
+			<tr>
+				<td colspan="2">Разбор текста</td>
+			</tr>
+			<tr>
+				<td>Согласные</td>
+				<td id="sogl">0</td>
+			</tr>
+			<tr>
+				<td>Гласные</td>
+				<td id="glas">0</td>
+			</tr>
+			<tr>
+				<td>Беззвучные</td>
+				<td id="bezz">0</td>
+			</tr>
+			<tr>
+				<td>Спец. Символы</td>
+				<td id="symb">0</td>
+			</tr>
+			<tr>
+				<td>Пробелы</td>
+				<td id="prob">0</td>
+			</tr>
+		</table>
+
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
